@@ -23,4 +23,5 @@ plugins {
     alias(libs.plugins.hilt.gradle) apply false
     alias(libs.plugins.kotlin.serial) apply false
     alias(libs.plugins.ksp) apply false
+    id("org.jetbrains.kotlin.jvm") version "1.8.0" apply false
 }
